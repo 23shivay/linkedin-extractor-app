@@ -1,0 +1,7 @@
+# .streamlit/config.toml
+
+[server]
+runOnSave = true
+
+[cli]
+onInit = "playwright install --with-deps chromium"
