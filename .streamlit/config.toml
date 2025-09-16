@@ -4,4 +4,4 @@
 runOnSave = true
 
 [cli]
-onInit = "playwright install --with-deps chromium"
+onInit = "playwright install chromium"
